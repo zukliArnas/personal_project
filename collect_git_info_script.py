@@ -201,7 +201,7 @@ def configure_logger(filename: str) -> logging.Logger:
     logger.addHandler(stdout_handle)
     logger.addHandler(file_handle)
     return logger
-T
+
 
 def main(logger: logging.Logger):
     logger.info(" >>> Running the script\n")
